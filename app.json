@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "ecomobtype",
-    "slug": "ecomobtype",
+    "name": "shopallx",
+    "slug": "shopall-x",
+    "description": "This is an Ecommerce App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +16,29 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ndubuisi.shopallx"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ndubuisi.shopallx"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD",
+      "useClassicUpdates": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7a6d1d4b-c3aa-4232-9ba0-0fffecb78116"
+      }
     }
   }
 }
